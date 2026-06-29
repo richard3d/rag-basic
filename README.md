@@ -1,4 +1,4 @@
-# Basic RAG
+# RAG-Basic
 
 A self-contained Retrieval-Augmented Generation (RAG) system built with Python and LangChain. This project was written as a hands-on exercise to understand the core mechanics of RAG pipelines — from document ingestion to vector search to LLM-generated answers — all running locally with no external API keys required.
 
@@ -41,7 +41,7 @@ The RAG service (`src/`) has two concurrent responsibilities, run in separate th
 ## Project Structure
 
 ```
-basic-rag/
+rag-basic/
 ├── src/
 │   ├── main.py       # Entry point — starts API server and file observer concurrently
 │   ├── server.py     # FastAPI app with /query-rag endpoint

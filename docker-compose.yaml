@@ -1,4 +1,4 @@
-name: basic-rag
+name: rag-basic
 
 services:
   ollama:

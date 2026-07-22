@@ -2,7 +2,7 @@ name: rag-basic
 
 services:
   ollama:
-    image: ollama/ollama:latest
+    image: ollama/ollama:0.32.1
     container_name: ollama
     ports:
       - "11434:11434"
@@ -28,7 +28,7 @@ services:
     #           capabilities: [gpu]
 
   ollama-init:
-    image: ollama/ollama:latest
+    image: ollama/ollama:0.32.1
     container_name: ollama-init
     volumes:
       - ollama-data:/root/.ollama
